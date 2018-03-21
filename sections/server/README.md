@@ -1,4 +1,4 @@
-#Inside of Server(サーバーの中身など)
+#Inside of Server(サーバーの中身など
 ---
 ##Programming Language(プログラミング言語)
 |Type|例|
@@ -21,3 +21,13 @@ PC のローカルマシンの OS としてポピュラーなのは、**Windows*
 サーバー用としては、**Unix**(ユニックス), **Linux**(リナックス) 系の OS が多く、Linux の Distribution として、**AmazonLinux**(アマゾンリナックス), **CentOS**(セントオーエス), **Redhat Linux**(レッドハットリナックス) などなど色々なものがある。それぞれ違いがあり、用途によって使い分けるが、まぁ AmazonLinux で良いかという風潮があることは否めない。
 
 サーバー用の OS には基本的に **GUI** (ジーユーアイ, **G**raphical **U**ser **I**nterface) がなく、デスクトップをマウスで操作するようなことはせず、コマンドを打って作業する。コマンドを打って作業する画面のことを、**CUI**(シーユーアイ, Character User Interface)と呼んだり、**CLI**(シーエルアイ, Command Line Interface)コマンドを打つ画面(アプリ)のことを **Prompt**(プロンプト)とか **Terminal** (ターミナル)などと呼んだりするが、目に優しく黒背景に設定する人が多い。以前、営業の人に「黒い画面を開いている時は話しかけないようにしている」などと言われたことがあり、反省した。
+
+## Index
+- [Grimoire du IT](../../README.md)
+- [Internet (インターネット)](../internet/README.md)
+- [Development Process (開発工程)](../process/README.md)
+- Inside of Server (サーバーの中身)
+- [Implementation (実装)](../implement/README.md)
+- [Test (テスト)](../test/README.md)
+- [Server & Security (サーバーとセキュリティ)](../security/README.md)
+- [練習問題](../practice/README.md)
