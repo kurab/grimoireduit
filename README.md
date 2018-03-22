@@ -1,8 +1,8 @@
 # Grimoire du IT ~ IT 魔導の書
 <div align="center">
 <img src="https://raw.githubusercontent.com/kurab/grimoireduit/images/00.png">
-Eloim, Essaim, frugativi et appellavi
 </div>
+Eloim, Essaim, frugativi et appellavi
 
 ## Summary
 IT 業界では日々数多くの呪文が唱えられている。多くはオリジナルの英語がそのまま使われる。これは日本においても同様であるが、日本では正しく発音されず、カタカナ英語となっており、オリジナルとはかけ離れた呪文になっていることが多い。
