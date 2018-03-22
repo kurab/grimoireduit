@@ -1,5 +1,4 @@
-#Server & Security(サーバーとセキュリティ)
----
+# Server & Security(サーバーとセキュリティ)
 ## 色々なサーバー
 <div align="center"><img src="https://raw.githubusercontent.com/kurab/grimoireduit/images/10.png"></div>
 
@@ -7,6 +6,7 @@
 
 オンプレの場合、クリスマスシーズンに対応できる分のサーバーを購入して、設置しておく必要がある。お金がかかるし、本当にそれで大丈夫か確証はない。
 クラウドサーバーの場合、クリスマスシーズンのみ必要な分だけ増やして、普段は10にしておくということができる。無駄がない。
+
 
 ## 色々なアクセス方法
 |Protocol<br>(プロトコル)|Default Port<br>(ポート)|用途|関連用語|
@@ -21,15 +21,18 @@
 
 通常はサービス単位でFire wallを設定するが、例えば中国の Great Fire Wall(グレートファイヤーウォール)のような、Facebook や Twitter などの SNS への通信を国として制限している場合もある。
 
+
 ## Fire Wall
 <div align="center"><img src="https://raw.githubusercontent.com/kurab/grimoireduit/images/11.png"></div>
 
 Fire Wall は特定の相手からの通信を遮断したり、特定の相手からの通信だけを許可したりします。
 
+
 ## Proxy
 <div align="center"><img src="https://raw.githubusercontent.com/kurab/grimoireduit/images/12.png"></div>
 
 Fire Wall に通信をはじかれてしまう場合、別人になりすましてアクセスすることがあります。別人になりすますことを **Proxy(プロクシー)を通す**とか **Proxy をさす**とか表現します。（プロクシー → 串 → 刺す）
+
 
 ## NAT(ナット)
 <div align="center"><img src="https://raw.githubusercontent.com/kurab/grimoireduit/images/13.png"></div>
@@ -40,6 +43,7 @@ NAT サーバーを経由する設定のことを **Route Table**(ルートテ�
 
 セキュリティ目的ではありませんが、http/https のリクエストを一括で受けて、それぞれの Web サーバーに振り分ける目的で Proxy サーバーを設置することもあります。先程の Proxy との違いは、ユーザー側ではなく、サーバー側がなりすます点です。
 
+
 ## Subnet(サブネット)
 <div align="center"><img src="https://raw.githubusercontent.com/kurab/grimoireduit/images/14.png"></div>
 
@@ -48,6 +52,7 @@ NAT サーバーを経由する設定のことを **Route Table**(ルートテ�
 IP Address 的には、以下のようになります。
 <div align="center"><img src="https://raw.githubusercontent.com/kurab/grimoireduit/images/15.png"></div>
 
+
 ## NACL & SG
 <div align="center"><img src="https://raw.githubusercontent.com/kurab/grimoireduit/images/16.png"></div>
 
@@ -55,6 +60,7 @@ Subnet に設定するセキュリティ設定のことを **Network ACL**(ネ�
 個別のサーバーにはそれぞれ個別に細かくセキュリティの設定をします。利用しない Port を開けておくのは危ないので、必要な Port だけを開けるように設定します。その設定は使い回しができるので、**Security Group**(セキュリティグループ)と呼ばれています。
 
 NACL と SG では、入ってくるものと出て行くものに分けて設定を行います。入ってくるものを **Inbound**(インバウンド), 出ていくものを **Outbound** (アウトバウンド)と呼びます。
+
 
 ## Availability Zone(アベイラビリティゾーン)
 <div align="center"><img src="https://raw.githubusercontent.com/kurab/grimoireduit/images/17.png"></div>
@@ -66,6 +72,7 @@ Region ごとに提供されるサービスが異なります。
 AWS で現在(1/12/2017)提供されているリージョンは、
 North Virginia, Ohio, North Carolina, Oregon, Canada, Ireland, Frankfurt, London, Tokyo, Seoul, Singapore, Sydney, Mumbai, San Paulo で、最近中国から AWS は撤退・パートナー企業に譲渡されたので、Beijing Region は AWS としてのサービスからは外れました。
 
+
 ## Load Balancer(ロードバランサー)
 <div align="center"><img src="https://raw.githubusercontent.com/kurab/grimoireduit/images/18.png"></div>
 
@@ -74,6 +81,7 @@ North Virginia, Ohio, North Carolina, Oregon, Canada, Ireland, Frankfurt, London
 オンプレミスの場合、たくさんのアクセスを想定し、サーバーを用意する必要がありますが、クラウドの場合、必要に応じて増やすことができます。サーバーを増やすことを **Scale out(スケールアウト)**と言い、ELB の機能で、ある一定の条件を超えたら自動で増やす **Auto Scaling(オートスケーリング)**というものがあり、お財布に優しくなっています。Auto Scaling はサーバー郡に対して設定できます(Auto Scaling Group)。
 
 一方で、サーバーの容量や処理能力自体を増強して処理を行う場合もあり、これを **Scale Up(スケールアップ)**と呼びます。
+
 
 ## 色々なサーバー
 |タイプ|用途|例|メモ|
@@ -86,6 +94,7 @@ North Virginia, Ohio, North Carolina, Oregon, Canada, Ireland, Frankfurt, London
 
 それぞれのサーバー1台1台のことを**Instance**(インスタンス)と呼び(EC2インスタンスとか)、インスタンスごとにスペックを設定する。Small とか Large とか。
 
+
 ## AWS のその他のサービス
 |サービス名|用途|メモ|
 |:-:|:-:|:-|
@@ -96,6 +105,7 @@ North Virginia, Ohio, North Carolina, Oregon, Canada, Ireland, Frankfurt, London
 |**VPC**<br>(ブイピーシー/Virtual Private Cloud)|サーバー群をひとまとめにする括りのこと|VPC 同士を接続することを **Peer Connect**(ピアコネクト)と言う。同一 Region 内で Private IP が被らない場合に接続できる|
 など
 
+
 ## Distribution Tool(ディストリビューションツール)
 同じことをいちいち設定するのが面倒なので、設定ファイルを書いてコマンド等を実行して簡単に再現できるようにする**構成管理ツール**のこと。設定の(半)自動配信。
 
@@ -103,6 +113,7 @@ VPC 全体の設定(ネットワーク設定など)を再現する場合は、**
 個別サーバーの設定(インストールやアプリケーション設定、ソースコード配置など)は、**Ansible**(アンシブル)や**Chef**(シェフ・チェフ)などを利用するのが一般的。
 
 基本的には、**xml**(エックスエムエル) や **yml**(ヤムル・ワイエムエル), json(ジェイソン) 等に設定を書く。**Template**(テンプレート)と言ったり、**Playbook**(プレイブック)と言ったり、**Cookbook, recipe**(クックブック, レシピ)と言ったりする。
+
 
 ## よく耳にするコマンド
 |コマンド名|用途|メモ|
@@ -113,6 +124,7 @@ VPC 全体の設定(ネットワーク設定など)を再現する場合は、**
 |**sudo**<br>(スドゥ, スドー)|**root**(ルート) ユーザとして実行する|SuperUserDo|
 その他に、AWS 専用のコマンド aws-cli などをインストールして使ったりすることもある。
 コマンド名が、ちょっと頭おかしい感じなのは、きっと当時作った人が疲れてたからに違いない。
+
 
 ## Index
 - [Grimoire du IT](../../README.md)

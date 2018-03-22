@@ -1,5 +1,4 @@
 # Grimoire du IT ~ IT 魔導の書
----
 Eloim, Essaim, frugativi et appellavi
 
 ## Summary

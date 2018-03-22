@@ -1,5 +1,4 @@
 # Test(テスト)
----
 ## 色々なテスト
 Test には色々な種類がある。大雑把に言えば、**Unit Test**(単体テスト)→**Integration Test**(結合テスト)→**System Test** (システムテスト)→**Acceptance Test**(受け入れテスト) の順番で行われる。
 
@@ -10,7 +9,9 @@ Test の中には、他の機能に影響が出ていないかを調べる **Reg
 
 **ISTQB**(アイエスティキュービー, International Software Testing Qualification Boards)という団体があり、資格を発行している。テストにおいて国際的に通じる共通言語として大変有益であり、LFTV においては、QA としての採用は ISTQB Foundation の資格を必須とし、何となくテストしないようにしている。
 
+
 <div align="center"><img src="https://raw.githubusercontent.com/kurab/grimoireduit/images/08.png"></div>
+
 
 |Test|何？|誰がやる？|
 |:-:|:-:|:-:|
@@ -19,8 +20,10 @@ Test の中には、他の機能に影響が出ていないかを調べる **Reg
 |System Test<br>(システムテスト)|本番環境とほぼ同じ環境で、全体として正しく動作するかを検証する。|QA|
 |User Acceptance Test<br>(アクセプタンステスト/受け入れテスト, UAT)|発注者の本来の目的・意図通りに動作しているかを発注者が検証する|Customer|
 
+
 ## Automation Test(自動テスト)
 <div align="center"><img src="https://raw.githubusercontent.com/kurab/grimoireduit/images/09.png"></div>
+
 
 何度もやるテストは自動化すべきである。CI/CD の観点からも自動化を積極的に進めるべき。
 
@@ -29,6 +32,7 @@ Test の中には、他の機能に影響が出ていないかを調べる **Reg
 どこまでやるかは担保すべき品質の定義次第である。
 
 github を利用する場合、多くのツールが Jenkins を介さなくても連携できるため、その点で github のバリューは高い。お値段も高い。
+
 
 ## Index
 - [Grimoire du IT](../../README.md)

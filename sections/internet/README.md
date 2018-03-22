@@ -1,5 +1,4 @@
 # Internet (インターネット)
----
 ## How Internet works?
 <div align="center"><img src="https://raw.githubusercontent.com/kurab/grimoireduit/images/01.png"></div>
 
@@ -29,13 +28,12 @@ Services(サービス):
 ## DNS
 <div align="center"><img src="https://raw.githubusercontent.com/kurab/grimoireduit/images/02.png"></div>
 
-DNS(ディーエヌエス)とは?
-Domain Name System(ドメイン・ネーム・システム)の略。インターネットのアドレス帳のこと。
+DNS(ディーエヌエス)とは,Domain Name System(ドメイン・ネーム・システム)の略。インターネットのアドレス帳のこと。
 
 ## hosts
 <div align="center"><img src="https://raw.githubusercontent.com/kurab/grimoireduit/images/03.png"></div>
 
-**Hosts(ホスツ)**ファイルとは、アドレス帳のことで、IP アドレスと呼び方を登録しておくと、設定した呼び方で、サーバーを呼び出すことができるようになる。個人の PC かサーバー上で設定する。
+**Hosts(ホスツ)** ファイルとは、アドレス帳のことで、IP アドレスと呼び方を登録しておくと、設定した呼び方で、サーバーを呼び出すことができるようになる。個人の PC かサーバー上で設定する。
 
 例えば、個人の開発環境は社内だけで分かれば良いので、Global な Name Server に登録する必要はなく（しない方が良く）、Hosts に設定するのが一般的である。
 
