@@ -135,3 +135,16 @@ VPC 全体の設定(ネットワーク設定など)を再現する場合は、**
 - [Test (テスト)](./test.md)
 - Server & Security (サーバーとセキュリティ)
 - [練習問題](./practice.md)
+
+---
+title: "Server & Security(サーバーとセキュリティ)"
+title_sfx: "Grimoire du IT ~ IT 魔導の書"
+date: "2018/07/27"
+author: "kura"
+breadcrumbs:
+- name: "Home"
+  url: "/"
+- name: "Grimoire du IT ~ IT 魔導の書"
+  url: "/articles/itwords"
+- name: "Server & Security(サーバーとセキュリティ)"
+---

@@ -15,3 +15,16 @@
 - [Test (テスト)](./test.md)
 - [Server & Security (サーバーとセキュリティ)](./security.md)
 - 練習問題
+
+---
+title: "練習問題"
+title_sfx: "Grimoire du IT ~ IT 魔導の書"
+date: "2018/07/27"
+author: "kura"
+breadcrumbs:
+- name: "Home"
+  url: "/"
+- name: "Grimoire du IT ~ IT 魔導の書"
+  url: "/articles/itwords"
+- name: "練習問題"
+---

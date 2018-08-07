@@ -14,6 +14,7 @@
 |Current(カレント)環境|各チームが開発中のものが集められたテスト環境。git を使う場合、あまり必要がない。|
 |Unit(ユニット)環境|個人の開発環境|
 
+
 ## Version Control(バージョン管理)
 複数人のチームで開発する場合、誰がいつ何を変更したのかの履歴を管理する必要がある。リリースしたらバグがあったので、急遽前のバージョンに戻したいなどの状況も考えられる。その際に利用するのが**バージョン管理システム**で、**CSV**(シーエスブイ), **SVN**(エスブイエヌ), **Git**(ギット)などがある。現在主流は、Git だが、SVN もまだまだ残っている。
 
@@ -63,3 +64,16 @@ MVCフレームワークは、例えば…
 - [Test (テスト)](./test.md)
 - [Server & Security (サーバーとセキュリティ)](./security.md)
 - [練習問題](./practice.md)
+
+---
+title: "Implementation(実装)"
+title_sfx: "Grimoire du IT ~ IT 魔導の書"
+date: "2018/07/27"
+author: "kura"
+breadcrumbs:
+- name: "Home"
+  url: "/"
+- name: "Grimoire du IT ~ IT 魔導の書"
+  url: "/articles/itwords"
+- name: "Implementation(実装)"
+---
