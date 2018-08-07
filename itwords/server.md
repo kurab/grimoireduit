@@ -25,11 +25,24 @@ PC のローカルマシンの OS としてポピュラーなのは、**Windows*
 
 
 ## Index
-- [Grimoire du IT](../../README.md)
-- [Internet (インターネット)](../internet/README.md)
-- [Development Process (開発工程)](../process/README.md)
+- [Grimoire du IT](../itwords.md)
+- [Internet (インターネット)](./internet.md)
+- [Development Process (開発工程)](./process.md)
 - Inside of Server (サーバーの中身)
-- [Implementation (実装)](../implement/README.md)
-- [Test (テスト)](../test/README.md)
-- [Server & Security (サーバーとセキュリティ)](../security/README.md)
-- [練習問題](../practice/README.md)
+- [Implementation (実装)](./implement.md)
+- [Test (テスト)](./test.md)
+- [Server & Security (サーバーとセキュリティ)](./security.md)
+- [練習問題](./practice.md)
+
+---
+title: "Inside of Server(サーバーの中身など)"
+title_sfx: "Grimoire du IT ~ IT 魔導の書"
+date: "2018/07/27"
+author: "kura"
+breadcrumbs:
+- name: "Home"
+  url: "/"
+- name: "Grimoire du IT ~ IT 魔導の書"
+  url: "/articles/itwords"
+- name: "Inside of Server(サーバーの中身など)"
+---

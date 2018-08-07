@@ -42,11 +42,24 @@
 
 
 ## Index
-- [Grimoire du IT](../../README.md)
-- [Internet (インターネット)](../internet/README.md)
+- [Grimoire du IT](../itwords.md)
+- [Internet (インターネット)](./internet.md)
 - Development Process (開発工程)
-- [Inside of Server (サーバーの中身)](../server/README.md)
-- [Implementation (実装)](../implement/README.md)
-- [Test (テスト)](../test/README.md)
-- [Server & Security (サーバーとセキュリティ)](../security/README.md)
-- [練習問題](../practice/README.md)
+- [Inside of Server (サーバーの中身)](./server.md)
+- [Implementation (実装)](./implement.md)
+- [Test (テスト)](./test.md)
+- [Server & Security (サーバーとセキュリティ)](./security.md)
+- [練習問題](./practice.md)
+
+---
+title: "Development Process(開発工程)"
+title_sfx: "Grimoire du IT ~ IT 魔導の書"
+date: "2018/07/27"
+author: "kura"
+breadcrumbs:
+- name: "Home"
+  url: "/"
+- name: "Grimoire du IT ~ IT 魔導の書"
+  url: "/articles/itwords"
+- name: "Development Process(開発工程)"
+---
