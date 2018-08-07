@@ -127,11 +127,11 @@ VPC 全体の設定(ネットワーク設定など)を再現する場合は、**
 
 
 ## Index
-- [Grimoire du IT](../../README.md)
-- [Internet (インターネット)](../internet/README.md)
-- [Development Process (開発工程)](../process/README.md)
-- [Inside of Server (サーバーの中身)](../server/README.md)
-- [Implementation (実装)](../implement/README.md)
-- [Test (テスト)](../test/README.md)
+- [Grimoire du IT](../itwords.md)
+- [Internet (インターネット)](./internet.md)
+- [Development Process (開発工程)](./process.md)
+- [Inside of Server (サーバーの中身)](./server.md)
+- [Implementation (実装)](./implement.md)
+- [Test (テスト)](./test.md)
 - Server & Security (サーバーとセキュリティ)
-- [練習問題](../practice/README.md)
+- [練習問題](./practice.md)

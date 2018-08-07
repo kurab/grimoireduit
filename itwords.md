@@ -12,13 +12,13 @@ IT 業界では日々数多くの呪文が唱えられている。多くはオ�
 内容に関して多少偏りがあることは認識している。
 
 ## Index
-- [Internet (インターネット)](./sections/internet/README.md)
-- [Development Process (開発工程)](./sections/process/README.md)
-- [Inside of Server (サーバーの中身)](./sections/server/README.md)
-- [Implementation (実装)](./sections/implement/README.md)
-- [Test (テスト)](./sections/test/README.md)
-- [Server & Security (サーバーとセキュリティ)](./sections/security/README.md)
-- [練習問題](./sections/practice/README.md)
+- [Internet (インターネット)](./itwords/internet.md)
+- [Development Process (開発工程)](./itwords/process.md)
+- [Inside of Server (サーバーの中身)](./itwords/server.md)
+- [Implementation (実装)](./itwords/implement.md)
+- [Test (テスト)](./itwords/test.md)
+- [Server & Security (サーバーとセキュリティ)](./itwords/security.md)
+- [練習問題](./itwords/practice.md)
 
 ## PDF version
 - [日本語](https://www.slideshare.net/hiroshik1/it-grimoire-du-it)
