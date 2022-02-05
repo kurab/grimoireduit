@@ -1,3 +1,14 @@
+---
+title: "Internet（インターネット)"
+date: "2018/07/27"
+author: "kura"
+breadcrumbs:
+- name: "Home"
+  url: "/"
+- name: "Grimoire du IT ~ IT 魔導の書"
+  url: "/articles/itwords"
+- name: "Internet（インターネット)"
+---
 # Internet (インターネット)
 ## How Internet works?
 <div align="center"><img src="https://raw.githubusercontent.com/kurab/grimoireduit/images/01.png"></div>
@@ -49,16 +60,3 @@ Hosts に記載がある場合は、Name Server より優先される。
 - [Test (テスト)](./test.md)
 - [Server & Security (サーバーとセキュリティ)](./security.md)
 - [練習問題](./practice.md)
-
----
-title: "Internet（インターネット)"
-title_sfx: "Grimoire du IT ~ IT 魔導の書"
-date: "2018/07/27"
-author: "kura"
-breadcrumbs:
-- name: "Home"
-  url: "/"
-- name: "Grimoire du IT ~ IT 魔導の書"
-  url: "/articles/itwords"
-- name: "Internet（インターネット)"
----

@@ -1,3 +1,14 @@
+---
+title: "Implementation(実装)"
+date: "2018/07/27"
+author: "kura"
+breadcrumbs:
+- name: "Home"
+  url: "/"
+- name: "Grimoire du IT ~ IT 魔導の書"
+  url: "/articles/itwords"
+- name: "Implementation(実装)"
+---
 # Implementation(実装)
 ## Stage(ステージ)
 <div align="center"><img src="https://raw.githubusercontent.com/kurab/grimoireduit/images/06.png"></div>
@@ -64,16 +75,3 @@ MVCフレームワークは、例えば…
 - [Test (テスト)](./test.md)
 - [Server & Security (サーバーとセキュリティ)](./security.md)
 - [練習問題](./practice.md)
-
----
-title: "Implementation(実装)"
-title_sfx: "Grimoire du IT ~ IT 魔導の書"
-date: "2018/07/27"
-author: "kura"
-breadcrumbs:
-- name: "Home"
-  url: "/"
-- name: "Grimoire du IT ~ IT 魔導の書"
-  url: "/articles/itwords"
-- name: "Implementation(実装)"
----

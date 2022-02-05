@@ -1,3 +1,14 @@
+---
+title: "練習問題"
+date: "2018/07/27"
+author: "kura"
+breadcrumbs:
+- name: "Home"
+  url: "/"
+- name: "Grimoire du IT ~ IT 魔導の書"
+  url: "/articles/itwords"
+- name: "練習問題"
+---
 # 練習問題
 ギットハブのマスターから開発ブランチ切って、そこで実装してください。コーディング規約はピーエスアールツーで、レビューするの面倒なのでコミットする前にピーエイチピーシーエスフィクサーとかでチェックしてください。実装終わったらマスターにたいしてプルリク投げてください。レビューしてオッケーならマスターにマージします。
 
@@ -15,16 +26,3 @@
 - [Test (テスト)](./test.md)
 - [Server & Security (サーバーとセキュリティ)](./security.md)
 - 練習問題
-
----
-title: "練習問題"
-title_sfx: "Grimoire du IT ~ IT 魔導の書"
-date: "2018/07/27"
-author: "kura"
-breadcrumbs:
-- name: "Home"
-  url: "/"
-- name: "Grimoire du IT ~ IT 魔導の書"
-  url: "/articles/itwords"
-- name: "練習問題"
----

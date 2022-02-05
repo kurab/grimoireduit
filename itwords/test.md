@@ -1,3 +1,14 @@
+---
+title: "Test(テスト)"
+date: "2018/07/27"
+author: "kura"
+breadcrumbs:
+- name: "Home"
+  url: "/"
+- name: "Grimoire du IT ~ IT 魔導の書"
+  url: "/articles/itwords"
+- name: "Test(テスト)"
+---
 # Test(テスト)
 ## 色々なテスト
 Test には色々な種類がある。大雑把に言えば、**Unit Test**(単体テスト)→**Integration Test**(結合テスト)→**System Test** (システムテスト)→**Acceptance Test**(受け入れテスト) の順番で行われる。
@@ -43,16 +54,3 @@ github を利用する場合、多くのツールが Jenkins を介さなくて�
 - Test (テスト)
 - [Server & Security (サーバーとセキュリティ)](./security.md)
 - [練習問題](./practice.md)
-
----
-title: "Test(テスト)"
-title_sfx: "Grimoire du IT ~ IT 魔導の書"
-date: "2018/07/27"
-author: "kura"
-breadcrumbs:
-- name: "Home"
-  url: "/"
-- name: "Grimoire du IT ~ IT 魔導の書"
-  url: "/articles/itwords"
-- name: "Test(テスト)"
----

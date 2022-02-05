@@ -1,3 +1,14 @@
+---
+title: "Inside of Server(サーバーの中身など)"
+date: "2018/07/27"
+author: "kura"
+breadcrumbs:
+- name: "Home"
+  url: "/"
+- name: "Grimoire du IT ~ IT 魔導の書"
+  url: "/articles/itwords"
+- name: "Inside of Server(サーバーの中身など)"
+---
 # Inside of Server(サーバーの中身など)
 ## Programming Language(プログラミング言語)
 |Type|例|
@@ -33,16 +44,3 @@ PC のローカルマシンの OS としてポピュラーなのは、**Windows*
 - [Test (テスト)](./test.md)
 - [Server & Security (サーバーとセキュリティ)](./security.md)
 - [練習問題](./practice.md)
-
----
-title: "Inside of Server(サーバーの中身など)"
-title_sfx: "Grimoire du IT ~ IT 魔導の書"
-date: "2018/07/27"
-author: "kura"
-breadcrumbs:
-- name: "Home"
-  url: "/"
-- name: "Grimoire du IT ~ IT 魔導の書"
-  url: "/articles/itwords"
-- name: "Inside of Server(サーバーの中身など)"
----

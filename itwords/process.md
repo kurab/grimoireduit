@@ -1,3 +1,14 @@
+---
+title: "Development Process(開発工程)"
+date: "2018/07/27"
+author: "kura"
+breadcrumbs:
+- name: "Home"
+  url: "/"
+- name: "Grimoire du IT ~ IT 魔導の書"
+  url: "/articles/itwords"
+- name: "Development Process(開発工程)"
+---
 # Development Process(開発工程)
 ## 開発工程の例
 <div align="center"><img src="https://raw.githubusercontent.com/kurab/grimoireduit/images/04.png"></div>
@@ -50,16 +61,3 @@
 - [Test (テスト)](./test.md)
 - [Server & Security (サーバーとセキュリティ)](./security.md)
 - [練習問題](./practice.md)
-
----
-title: "Development Process(開発工程)"
-title_sfx: "Grimoire du IT ~ IT 魔導の書"
-date: "2018/07/27"
-author: "kura"
-breadcrumbs:
-- name: "Home"
-  url: "/"
-- name: "Grimoire du IT ~ IT 魔導の書"
-  url: "/articles/itwords"
-- name: "Development Process(開発工程)"
----

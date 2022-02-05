@@ -1,3 +1,13 @@
+---
+title: "Grimoire du IT ~ IT 魔導の書"
+author: "kura"
+date: "2018/07/27"
+breadcrumbs:
+- name: "Home"
+  url: "/"
+- name: "Grimoire du IT ~ IT 魔導の書"
+---
+
 # Grimoire du IT ~ IT 魔導の書
 <div align="center">
 <img src="https://raw.githubusercontent.com/kurab/grimoireduit/images/00.png">
@@ -23,14 +33,3 @@ IT 業界では日々数多くの呪文が唱えられている。多くはオ�
 ## PDF version
 - [日本語](https://www.slideshare.net/hiroshik1/it-grimoire-du-it)
 - [Tiếng Việt](https://www.slideshare.net/hiroshik1/sch-ma-thut-it-grimoire-du-it)
-
----
-title: "Grimoire du IT ~ IT 魔導の書"
-title_sfx: "Grimoire du IT ~ IT 魔導の書"
-author: "kura"
-date: "2018/07/27"
-breadcrumbs:
-- name: "Home"
-  url: "/"
-- name: "Grimoire du IT ~ IT 魔導の書"
----
